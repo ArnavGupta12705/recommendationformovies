@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 def read_data():
-    df = pd.read_csv("/Users/arnavgupta/Downloads/sadnesspython/chatbot/tmdb_5000_movies.csv")
+    df = pd.read_csv("tmdb_5000_movies.csv")
     return df
 def weighted_rating(x,m,C):
     v=x['vote_count']
