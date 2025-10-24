@@ -26,7 +26,7 @@ def fetch_poster(movie_id):
 # Data Loading and Scoring
 # =========================
 def read_data():
-    df = pd.read_csv(r"chatbot/tmdb_5000_movies.csv")
+    df = pd.read_csv(r"tmdb_5000_movies.csv")
     return df
 
 def weighted_rating(x, m, C):
